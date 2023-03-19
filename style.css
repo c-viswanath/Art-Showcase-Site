@@ -1,0 +1,63 @@
+body{
+    background-color: #000000fa;
+}
+img{
+    opacity: .75;
+    border: 5px solid rgba(82, 82, 82, 0.412);
+    border-radius: 5%;
+    width: 30%;
+    margin: 1%;
+    transition: opacity 200ms ease-in 10ms;
+    
+}
+img:hover{
+    opacity: 1;
+}
+nav{
+    width: 100%;
+    color: aliceblue;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f132;
+    font-family: 'Poppins',sans-serif;
+    font-weight:700;
+    font-size: 200%;
+    padding: 5px 0px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    transition: color 200ms ease-in 10ms;
+}
+nav:hover{
+    color: aquamarine;
+}
+
+p{
+    margin-left: 33.33333333333333333%;
+    padding-top: 10px;
+    font-family: poppins,sans-serif;
+    font-weight: 700;
+    color: rgb(184, 184, 184);
+    width: 30%;
+    text-align: center;
+
+    border-top:2px solid #f1f1f132;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+    transition: color 200ms ease-in 10ms;
+}
+a:hover{
+    color: aqua;
+}
+body::-webkit-scrollbar {
+    width: 12px;         
+}
+body::-webkit-scrollbar-track {
+    background: rgba(29, 29, 29, 0.072);   
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(164, 164, 164, 0.632);   
+    border-radius: 20px;   
+    border: 3px solid rgb(0, 0, 0);  
+}
